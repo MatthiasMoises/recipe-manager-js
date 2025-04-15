@@ -1,0 +1,22 @@
+# FRONTEND
+
+# API
+recipe-manager-api/node_modules
+recipe-manager-api/build
+recipe-manager-api/tmp
+
+recipe-manager-api/.env
+recipe-manager-api/.env.local
+recipe-manager-api/.env.production.local
+recipe-manager-api/.env.development.local
+
+recipe-manager-api/public/assets
+
+recipe-manager-api/npm-debug.log
+recipe-manager-api/yarn-error.log
+
+recipe-manager-api/.fleet
+recipe-manager-api/.idea
+recipe-manager-api/.vscode
+
+recipe-manager-api/.DS_Store
