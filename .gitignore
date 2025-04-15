@@ -20,3 +20,5 @@ recipe-manager-api/.idea
 recipe-manager-api/.vscode
 
 recipe-manager-api/.DS_Store
+
+recipe-manager-api/storage/uploads
