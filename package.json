@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"api": "lerna run --scope \"recipe-manager-api\" dev",
-	"ui:ng": "lerna run --scope \"recipe-manager-ui-ng\" start",
-	"ui:next": "lerna run --scope \"recipe-manager-ui\" start",
-	"all": "lerna run --parallel start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"api:build": "lerna run --scope=@recipe-manager-js/recipe-manager-api build",
+	"api": "lerna run --scope=@recipe-manager-js/recipe-manager-api dev",
+	"ui:ng": "lerna run --scope=@recipe-manager-js/recipe-manager-ui-ng start",
+	"ui:ng:build": "lerna run --scope=@recipe-manager-js/recipe-manager-ui-ng build",
+	"ui:next": "lerna run --scope=@recipe-manager-js/recipe-manager-ui start",
+	"ui:next:build": "lerna run --scope=@recipe-manager-js/recipe-manager-ui build",
+	"all": "lerna run --parallel start"
   },
   "keywords": [],
   "author": "Matthias Moises",

@@ -1,5 +1,5 @@
 {
-  "name": "recipe-manager-ui-ng",
+  "name": "@recipe-manager-js/recipe-manager-ui-ng",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

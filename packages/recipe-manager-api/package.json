@@ -1,5 +1,5 @@
 {
-  "name": "recipe-manager-api",
+  "name": "@recipe-manager-js/recipe-manager-api",
   "version": "0.0.0",
   "private": true,
   "type": "module",

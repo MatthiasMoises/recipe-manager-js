@@ -1,5 +1,5 @@
 {
-  "name": "recipe-manager-ui",
+  "name": "@recipe-manager-js/recipe-manager-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
